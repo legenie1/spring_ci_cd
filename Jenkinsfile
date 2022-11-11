@@ -9,8 +9,7 @@ pipeline{
             steps{
                 
                 script{
-                    
-                    git branch: 'main', url: 'https://github.com/vikash-kumar01/mrdevops_javaapplication.git'
+                    git branch: 'main', url: 'git@github.com:legenie1/spring_ci_cd.git'
                 }
             }
         }
